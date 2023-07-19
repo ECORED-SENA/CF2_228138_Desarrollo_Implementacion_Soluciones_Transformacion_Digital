@@ -56,28 +56,28 @@
       .row(titulo="Infraestructura de la nube")
         .col-lg-7
           ul.lista-ul--color.lista-acento-botones.mb-0
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0 Composición por elementos de #[em hardware] y #[em software].
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0 Comunicación por servicios de red basados #[em hardware] y #[em software]. 
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0 Segmentación de zonas, que pueden ser campus o red de usuarios e invitados, #[em Demilitarized Zone] - DMZ; bases de datos, servidores.
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0 Alta Disponibilidad en componentes, principalmente en los componentes de red, servidores de aplicación, #[em storage] y energía.
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0 Virtualización; Implementación de múltiples servidores virtuales en hiper visores tales como; #[em VMware, Proxmox, XenServer, Citrix, Hyper-v, ESX.]
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0 Implementación de Servidores de aplicación web y servicios; #[em File].
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0 #[em Transfer Protocol - FTP], Sistema de Nombres de Dominio #[em DNS].
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0 Sistemas #[em ERP, BI,] entre otros.            
         .col-lg-5
@@ -93,28 +93,28 @@
         .col-lg-7
           p La seguridad, permite la protección de las infraestructuras, a través de algunos controles como los siguientes:
           ul.lista-ul--color.lista-acento-botones.mb-0
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               | Establecimiento de políticas y procedimientos de seguridad digital.
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               | Direccionamiento par el cumplimiento de la legislación aplicable en relación a las operaciones de la infraestructura tecnológica.
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0 Protección de dispositivos finales, #[em hosts].
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               | Protección criptográfica.  
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               | Seguridad física y del entorno.
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               | Copias de respaldo.
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               | Gestión de incidentes de seguridad digital; vulnerabilidades, eventos e incidentes.       
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
               | Entrenamiento y concienciación en ciberseguridad. 
         .col-lg-5
@@ -141,25 +141,25 @@
           .row(titulo="Componentes de infraestructura, más comunes")
             .col-12.ps-5
               ul.lista-ul--color.lista-acento-botones.mb-0
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 
                     strong Servidores: 
                     | red, aplicación, servicios, bases de datos.
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 #[em #[strong Router:]] enrutadores de red.
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 #[em #[strong Switch:]] #[em switches] conectores de diversas capas de red.  
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 
                     strong Sistema de refrigeración. 
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 #[em #[strong Storage:]] sistemas de almacenamiento en red, #[em network attached storage - nas.] 
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 
                     strong Cableado estructurado. 
@@ -167,87 +167,87 @@
           .row(titulo="Otros componentes importantes de infraestructura")
             .col-12.ps-5
               ul.lista-ul--color.lista-acento-botones.mb-0
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 
                     strong Potencia y energía: 
                     | sistemas de regulación de la energía, plantas eléctricas para redundancia.
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 
                     strong Equipos, computadores.
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 
                     strong Periféricos:   
                     | Impresoras, escáneres, lectores láser, entre otros.  
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 #[strong #[em Software]] #[strong de virtualización:] #[em VMware, Proxmox, XenServer, Citrix, Hyper-v, ESX.]
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 #[em #[strong Software]] #[strong de monitoreo:] monitoreo de red, capacidades y temperaturas.
 
           .row(titulo="Componentes de seguridad más usuales")
             .col-12.ps-5
               ul.lista-ul--color.lista-acento-botones.mb-0
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 #[em #[strong Firewall]] #[strong de Red:] 
                     | asegura el entorno de conexión.
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 #[em #[strong Antimalware]].
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 #[em #[strong Firewall]] 
                     strong de aplicación.  
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 
                     strong IP Tables:  
                     | reglas de acceso en red.
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 
                     strong Sistemas de correlación de eventos o #[em #[strong Logs, Security Information and Event Management - SIEM.]]  
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 #[em #[strong Cifrad:]] conectividad y datos.
 
           .row(titulo="Otros componentes importantes de la seguridad")
             .col-12.ps-5
               ul.lista-ul--color.lista-acento-botones.mb-0
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0  
                     strong VPN: 
                     | conexiones remotas seguras.
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0  
                     strong IDS/IPS:  
                     | sistema de Detección y prevención de intrusiones.
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0  
                     strong NIDS - #[em #[strong Network Intrusion Detection System]], #[strong Sistemas de detección de intrusos en red.]
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0  
                     strong Herramientas de análisis de vulnerabilidades: #[em OpenVas, Nessus].
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0  
                     strong WAF - #[em #[strong Web Aplication Firewall, Firewall]] #[strong de aplicación].    
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0  
                     strong DLP – #[em #[strong Data Loss Prevention:]]  
                     | sistema de prevención de pérdida de datos o fuga de información.        
                                                 
       .col-lg-5.mb-4(data-aos="fade-left")
-        figure
+        figure.d-lg-block.d-none
           img(src='@/assets/curso/temas/t3/t3_10.png', alt='imagen decorativa') 
 
     Separador  

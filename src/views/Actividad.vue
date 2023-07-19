@@ -7,17 +7,17 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/Arrastrar_Soltar.svg", alt="Actividad didáctica Autoevaluación de conceptos de tratamiento de los riesgos de ciberseguridad")
+            img(src="@/assets/template/Falso_Verdadero.svg", alt="Actividad didáctica Autoevaluación de conceptos de tratamiento de los riesgos de ciberseguridad")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Autoevaluación de conceptos de tratamiento de los riesgos de ciberseguridad
-        p.mb-4 #[b Objetivo] Identificar los conceptos del tratamiento de los riesgos de ciberseguridad para afianzar los conocimientos adquiridos en el componente.
+        p.mb-4 Identificar los conceptos del tratamiento de los riesgos de ciberseguridad para afianzar los conocimientos adquiridos en el componente.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo de actividad
+              p.fw-bold.mb-0 Verdadero o falso
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 

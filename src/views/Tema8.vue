@@ -18,27 +18,27 @@
         .bg--piel.br_cstm.p-4
           p La matriz debe contener un registro y valoración de:
           ul.lista-ul--color.lista-acento-botones.mb-0
-            li.mb-0 
+            li.mb-0.d-flex 
               i.fas.fa-square
-              | Activos de información.
-            li.mb-0 
+              p.mb-0 Activos de información.
+            li.mb-0.d-flex 
               i.fas.fa-square
-              | Riesgos; (Amenazas, principios afectados por amenazas, elementos vulnerables).
-            li.mb-0 
+              p.mb-0 Riesgos; (Amenazas, principios afectados por amenazas, elementos vulnerables).
+            li.mb-0.d-flex 
               i.fas.fa-square
-              | Probabilidad de riesgos.
-            li.mb-0 
+              p.mb-0 Probabilidad de riesgos.
+            li.mb-0.d-flex 
               i.fas.fa-square
-              | Dimensiones de Impactos organizacionales.
-            li.mb-0 
+              p.mb-0 Dimensiones de Impactos organizacionales.
+            li.mb-0.d-flex 
               i.fas.fa-square
-              | Cálculo del Riesgo inherente.
-            li.mb-0 
+              p.mb-0 Cálculo del Riesgo inherente.
+            li.mb-0.d-flex 
               i.fas.fa-square
-              | Controles y aplicación de controles al catálogo de riesgos.
-            li.mb-0 
+              p.mb-0 Controles y aplicación de controles al catálogo de riesgos.
+            li.mb-0.d-flex 
               i.fas.fa-square
-              | Cálculo del riesgo residual.          
+              p.mb-0 Cálculo del riesgo residual.          
 
     Separador
     
@@ -149,75 +149,59 @@
 
     .row.justify-content-center(data-aos="zoom-in")
       .col-md-10
-        .bg--paleYellow.br_cstm.p-4
+        .bg--paleYellow.br_cstm.p-5
           .row
             .col-lg-7.mb-0.px-md-4.py-md-0.px-3.py-5
               p El plan de tratamiento de riesgos se debe construir considerando los siguientes aspectos:
               ul.lista-ul--color.lista-acento-botones
-                li.mb-0 
+                li.mb-0.d-flex 
                   i.fas.fa-square
-                  | Activo de Información con riesgos críticos.
-                li.mb-0 
+                  p.mb-0 Activo de Información con riesgos críticos.
+                li.mb-0.d-flex 
                   i.fas.fa-square
-                  | Riesgos residuales asociados.
-                li.mb-0 
+                  p.mb-0 Riesgos residuales asociados.
+                li.mb-0.d-flex 
                   i.fas.fa-square
-                  | Causas de riesgo asociadas.
-                li.mb-0 
+                  p.mb-0 Causas de riesgo asociadas.
+                li.mb-0.d-flex 
                   i.fas.fa-square
-                  | Controles asociados a los riesgos. 
-                li.mb-0 
+                  p.mb-0 Controles asociados a los riesgos. 
+                li.mb-0.d-flex 
                   i.fas.fa-square
-                  | Tipo de tratamiento; mitigar o reducir el riesgo, evitar el riesgo, compartir o transferir el riesgo.
-                li.mb-0 
+                  p.mb-0 Tipo de tratamiento; mitigar o reducir el riesgo, evitar el riesgo, compartir o transferir el riesgo.
+                li.mb-0.d-flex 
                   i.fas.fa-square
-                  | Actividades a realizar. 
-                li.mb-0 
+                  p.mb-0 Actividades a realizar. 
+                li.mb-0.d-flex 
                   i.fas.fa-square
-                  | Responsable. 
-                li.mb-0 
+                  p.mb-0 Responsable. 
+                li.mb-0.d-flex 
                   i.fas.fa-square
-                  | Prioridad.  
-                li.mb-0 
+                  p.mb-0 Prioridad.  
+                li.mb-0.d-flex 
                   i.fas.fa-square
-                  | Fecha de Implementación de las actividades.
+                  p.mb-0 Fecha de Implementación de las actividades.
                 li.mb-0
                   i.fas.fa-square
                   | Observaciones.                    
             .col-lg-5.mb-4.mb-md-0.px-md-4(data-aos="fade-left")
               figure.mb-4
                 img(src='@/assets/curso/temas/t8/t8_04.png', alt='imagen decorativa')  
-              .row
-                .col-6
-                  a.boton.color-acento-botones.indicador__container.text-center.modal-centrado(@click="modal1 = true")
-                    span Ver más
-                    i.fas.fa-chevron-right
-                    .indicador--click(v-if="mostrarIndicador")  
-                  .row.justify-content-center.align-items-center
-                    .col-md-5
+          .row.justify-content-center.align-items-center.mb-4
+            .col-auto.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/t8/t8_05.svg', alt='imagen decorativa').img75.m-auto
+            .col-lg
+              p.mb-0 Una vez se haya realizado el Plan de Tratamiento de Riesgos se debe comunicar a las partes interesadas, principalmente a los responsables de los activos de información y se debe dejar un registro de aceptación del plan de tratamiento de riesgos.
+          .row.justify-content-center.align-items-center
+            .col-auto.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/t8/t8_06.svg', alt='imagen decorativa').img75.m-auto
+            .col-lg
+              p.mb-0 El 
+                strong PTR
+                | , plan de tratamiento de riesgos, debe ser revisado periódicamente para determinar la conformidad, según las fechas de implementación de las actividades.
                     
-                      ModalA.modal-borde(:abrir-modal.sync="modal1")
-                        .row.justify-content-center.align-items-center
-                          .col-auto.mb-4.mb-lg-0
-                            figure
-                              img(src='@/assets/curso/temas/t8/t8_05.svg', alt='imagen decorativa').img75.m-auto
-                          .col-lg
-                            p.text-white.mb-0 Una vez se haya realizado el Plan de Tratamiento de Riesgos se debe comunicar a las partes interesadas, principalmente a los responsables de los activos de información y se debe dejar un registro de aceptación del plan de tratamiento de riesgos.
-                .col-6
-                  a.boton.color-acento-botones.indicador__container.text-center.modal-centrado(@click="modal2 = true")
-                    span Ver más
-                    i.fas.fa-chevron-right
-                    .indicador--click(v-if="mostrarIndicador")  
-
-                  ModalA.modal-borde(:abrir-modal.sync="modal2")
-                    .row.justify-content-center.align-items-center
-                      .col-auto.mb-4.mb-lg-0
-                        figure
-                          img(src='@/assets/curso/temas/t8/t8_06.svg', alt='imagen decorativa').img75.m-auto
-                      .col-lg
-                        p.text-white.mb-0 El 
-                          strong PTR
-                          | , plan de tratamiento de riesgos, debe ser revisado periódicamente para determinar la conformidad, según las fechas de implementación de las actividades.
 
 </template>
 

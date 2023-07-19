@@ -20,7 +20,7 @@
       .col-md-11.p-md-5.py-5.px-3
         .bg_img_01.p-4.br_cstm
           .row.justify-content-center
-            .col-md-6.mb-4
+            .col-lg-6.mb-4
               .content  
                 .content-overlay
                 img(src="@/assets/curso/temas/t1/t1_02.png", alt="Información primaria") 
@@ -28,7 +28,7 @@
                   h4 Información primaria
                   p Es la información que se recolecta directamente, por medio de un sujeto directo con su objeto de investigación.
 
-            .col-md-6.mb-4
+            .col-lg-6.mb-4
               .content(@mouseover="mostrarIndicador = false")
                 .indicador--click(v-if="mostrarIndicador")  
                 .content-overlay
@@ -37,7 +37,7 @@
                   h4 Información secundaria
                   p Es aquella que se recopila con base en investigaciones realizadas o fuentes de información con propósitos diferentes. La información secundaria es recolectada sin tener contacto directo con el objeto de análisis.
 
-            .col-md-6.mb-4
+            .col-lg-6.mb-4
               .content  
                 .content-overlay
                 img(src="@/assets/curso/temas/t1/t1_04.png", alt="Objeto") 
@@ -45,7 +45,7 @@
                   h4 Objeto
                   p Elemento, proceso, área que puede ser objeto de interacción, análisis e investigación por uno o más individuos.
 
-            .col-md-6.mb-4
+            .col-lg-6.mb-4
               .content  
                 .content-overlay
                 img(src="@/assets/curso/temas/t1/t1_05.png", alt="Sujeto") 
@@ -96,7 +96,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t1/t1_08.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Las técnicas de recolección de información involucran los métodos para la captura o toma de datos que se pueden aplicar en las investigaciones o procesos de una organización, los mismos se pueden dar en forma cualitativa o cuantitativa. Es importante resaltar que en la recolección de la información se debe validar la calidad de la información y sus fuentes.
+        p.mb-0 Las técnicas de recolección de información, en el proceso de análisis. valoración de riesgos y controles de ciberseguridad, tienen ciertas características o particularidades que, no solo las diferencias de las técnicas de recolección de otros procesos, sino que, además, favorecen la operación de quienes están a cargo de dicha tarea.
 
     p(data-aos="fade-left").mb-5 Las técnicas de recolección de información pueden apropiar las características que se descubrirán en el recurso que se muestra a continuación. ¡Adelante!
 

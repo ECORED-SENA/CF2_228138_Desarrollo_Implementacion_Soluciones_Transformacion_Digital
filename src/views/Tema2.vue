@@ -261,7 +261,7 @@
 
     .row.justify-content-center(data-aos="fade-down")
       .col-lg-10
-        .bg--pink.br_cstm.p-4
+        .bg--pink.br_cstm.p-5
           .row.justify-content-center
             .col-lg-7.mb-0.px-md-4.py-md-0.py-5.px-3(data-aos="fade-right")
               p Las características que se deben considerar para realizar un plan de tratamiento de riesgos son:
@@ -300,23 +300,14 @@
             .col-lg-5.col-8.mb-4.mb-md-0.px-md-4
               figure.mb-4
                 img(src='@/assets/curso/temas/t2/t2_04.svg', alt='imagen decorativa') 
+          .row.justify-content-center.align-items-center
+            .col-auto.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/temas/t2/t2_05.svg', alt='imagen decorativa')
+            .col-lg
+              p.mb-0 Es importante destacar que para tratar un riesgo se debe implementar controles de ciberseguridad o fortalecer los existentes asociados al riesgo. Esto permite la mitigación del riesgo ya que los controles bien aplicados logran disminuir la probabilidad o impacto de los riesgos.
 
-              .row.justify-content-center
-                .col-auto
-                  a.boton.color-acento-botones.indicador__container.text-center.modal-centrado(@click="modal1 = true")
-                    span Ver más
-                    i.fas.fa-chevron-right
-                    .indicador--click(v-if="mostrarIndicador")  
-
-              .row.justify-content-center
-                .col-md-5
-                  ModalA.bg--darkBlue(:abrir-modal.sync="modal1")
-                    .row.justify-content-center.align-items-center
-                      .col-auto.mb-4.mb-lg-0
-                        figure
-                          img(src='@/assets/curso/temas/t2/t2_05.svg', alt='imagen decorativa')
-                      .col-lg
-                        p.text-white.mb-0 Es importante destacar que para tratar un riesgo se debe implementar controles de ciberseguridad o fortalecer los existentes asociados al riesgo. Esto permite la mitigación del riesgo ya que los controles bien aplicados logran disminuir la probabilidad o impacto de los riesgos.
+                    
 
 </template>
 

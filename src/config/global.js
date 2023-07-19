@@ -250,7 +250,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Vulnerabilidades y amenazas',
+      tema: '2. Vulnerabilidades y amenazas',
       referencia:
         'Gómez, V., Á. (2015). Auditoría de seguridad informática. RA-MA Editorial.',
       tipo: 'Libro',
@@ -258,21 +258,21 @@ export default {
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/62464?page=14',
     },
     {
-      tema: 'Seguridad e infraestructura de hardware y software',
+      tema: '3. Seguridad e infraestructura de hardware y software',
       referencia:
         'Tenable. (2021).Tenable for education, Instructor / Student guide.',
       tipo: 'PDF',
       descarga: '/downloads/Guide-Tenable-for-Education.pdf',
     },
     {
-      tema: 'Interconexiones de redes y seguridad perimetral',
+      tema: '3.3 Interconexiones de redes y seguridad perimetral',
       referencia:
         'Owasp. (2021). <em>OWASP ZAP 2.9.Getting Started Guide.</em>',
       tipo: 'PDF',
       descarga: '/downloads/Guide-Tenable-for-Education.pdf',
     },
     {
-      tema: 'Herramientas de análisis de seguridad digital',
+      tema: '4. Herramientas de análisis de seguridad digital',
       referencia:
         'Baca, U., G. (2016). Introducción a la Seguridad informática. Grupo Editorial Patria. ',
       tipo: 'Libro',
@@ -280,15 +280,15 @@ export default {
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/40458?page=20',
     },
     {
-      tema: 'Herramientas de análisis de seguridad digital',
+      tema: '4. Herramientas de análisis de seguridad digital',
       referencia: 'Subgraph. (2021). About Vega. Subgraph.',
       tipo: 'Pagina web',
       link: 'https://subgraph.com/vega/documentation/about-vega/index.en.html',
     },
     {
-      tema: 'Matriz de riesgos',
+      tema: '8. Matriz de riesgos',
       referencia:
-        '8. Matriz de riesgos	Montes, S., C. A., y Vallejo, B., C. A. (2020). Los mapas de riesgos en la auditoría interna. Contexto: Revista de La Facultad de Ciencias Económicas Administrativas y Contables, 9(1), 76–101.Artículo.',
+        'Matriz de riesgos	Montes, S., C. A., y Vallejo, B., C. A. (2020). Los mapas de riesgos en la auditoría interna. Contexto: Revista de La Facultad de Ciencias Económicas Administrativas y Contables, 9(1), 76–101.Artículo.',
       tipo: 'Artículo',
       link:
         'https://search-ebscohost-com.bdigital.sena.edu.co/login.aspx?direct=true&db=fap&AN=154262779&lang=es&site=ehost-live',
@@ -318,7 +318,7 @@ export default {
     {
       termino: '<em>Cloud computing</em>',
       significado:
-        'utilización de soluciones hardware y software dispuestos a través de internet para la implementación de soluciones informáticas.',
+        'utilización de soluciones <em>hardware</em> y <em>software</em> dispuestos a través de internet para la implementación de soluciones informáticas.',
     },
     {
       termino: 'Confidencialidad de la información',
@@ -380,8 +380,7 @@ export default {
     {
       referencia:
         'Gallardo de Parada, Y., y Moreno Garzón, A. (1999). Serie aprender a investigar. Módulo recolección de la información.',
-      link:
-        'http://www.unilibrebaq.edu.co/unilibrebaq/images/CEUL/mod3recoleccioninform.pdf',
+      link: '',
     },
     {
       referencia:
@@ -397,8 +396,7 @@ export default {
     {
       referencia:
         'Ministerio de Hacienda y Administraciones Públicas. (2012). MAGERIT – Versión 3.0. Metodología de análisis y gestión de riesgos de los sistemas de información. catálogo de elementos. Ministerio de Hacienda y Administraciones Públicas.',
-      link:
-        'https://administracionelectronica.gob.es/pae_Home/dam/jcr:5fbe15c3-c797-46a6-acd8-51311f4c2d29/2012_Magerit_v3_libro2_catalogo-de-elementos_es_NIPO_630-12-171-8.pdf',
+      link: '',
     },
     {
       referencia:
@@ -519,7 +517,7 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander ',
         },
         {
-          nombre: 'Nombre',
+          nombre: 'Camilo Andres Bolaño Rey',
           cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
