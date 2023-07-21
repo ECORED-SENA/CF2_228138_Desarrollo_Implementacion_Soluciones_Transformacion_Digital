@@ -298,7 +298,7 @@ export default {
     {
       termino: 'Activo de información',
       significado:
-        'componente que almacena, trata, muestra o transporta datos e información, pudiendo ser físicos o digitales, por ejemplo, una base de datos, software, sistemas de información, papel, discos duros, personas, procesos, etc.',
+        'componente que almacena, trata, muestra o transporta datos e información, pudiendo ser físicos o digitales, por ejemplo, una base de datos, <em>software</em>, sistemas de información, papel, discos duros, personas, procesos, etc.',
     },
     {
       termino: 'Amenaza',
@@ -336,14 +336,14 @@ export default {
         'propiedad o característica de los activos consistente en que las entidades o procesos autorizados tienen acceso a los mismos cuando lo requieren.',
     },
     {
-      termino: 'Hardware',
+      termino: '<em>Hardware</em>',
       significado:
-        'Hardware componentes tecnológicos de carácter físico que soportan el software.',
+        '<em>Hardware</em> componentes tecnológicos de carácter físico que soportan el <em>software.</em>',
     },
     {
       termino: 'Infraestructura TI',
       significado:
-        'componentes de hardware y software requeridos para gestionar y operar entornos tecnológicos que pueden ser implementados en instalaciones de la organización o en sistemas en la nube, cloud computing.',
+        'componentes de <em>hardware</em> y <em>software</em> requeridos para gestionar y operar entornos tecnológicos que pueden ser implementados en instalaciones de la organización o en sistemas en la nube, <em>cloud computing.</em>',
     },
     {
       termino: 'Integridad de los datos',
@@ -363,7 +363,7 @@ export default {
     {
       termino: 'Tratamiento de riesgos',
       significado:
-        'medidas y controles que se implementan con el fin de mitigar el impacto o la frecuencia de ocurrencia de un riego.',
+        'medidas y controles que se implementan con el fin de mitigar el impacto o la frecuencia de ocurrencia de un riesgo.',
     },
     {
       termino: 'Vulnerabilidad',
@@ -391,7 +391,7 @@ export default {
       referencia:
         'Manning, K. (2021). Las 10 mejores herramientas de automatización de procesos empresariales. <em>Process Maker.</em>',
       link:
-        'Manning, K. (2021). Las 10 mejores herramientas de automatización de procesos empresariales. Process Maker.',
+        'https://www.processmaker.com/es/blog/top-10-business-process-automation-tools/',
     },
     {
       referencia:
