@@ -260,11 +260,7 @@
       .col-md-10
         .cajon.color-acento-contenido.p-4.mb-4.mb-md-0
           p.mb-0 Hablar de interconexiones de redes y seguridad perimetral, es referirse a las conexiones de red entre los diferentes dispositivos, de acuerdo con los fundamentos de red o #[em networking], incluyendo los dispositivos de seguridad perimetral. 
-    
-    p(data-aos="fade-left").mb-4 Para una mejor comprensión de este punto, se debe estudiar atentamente la imagen animada que se muestra en pantalla (ver figura1) y tomar nota de los aspectos que ella explica:
-
     .row.justify-content-center(data-aos="zoom-in")
-      .col-md-10
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
             .col-5.col-sm-3.col-lg-2.px-4
