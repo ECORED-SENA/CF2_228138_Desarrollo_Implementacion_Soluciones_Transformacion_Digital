@@ -51,7 +51,7 @@
               ul.fa-ul
                 li.mb-0 
                   i.fa-li.fas.fa-play.clr--darkBlue
-                  | También existen sistemas operativos enfocados a seguridad de digital:
+                  | También existen sistemas operativos enfocados a seguridad digital:
 
               ul.fa-ul.ms-5
                 li.mb-0 

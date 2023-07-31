@@ -78,21 +78,21 @@
             tr.fila-amarillo1
               td.text-center 1
               td.text-center Severo
-              td El nivel del riesgo es Inadmisible o severo, por lo que es necesario implementar controles en la Organización para mitigar, evitar o compartir el riesgo y llevar el mismo a niveles aceptables.
+              td El nivel del riesgo es inadmisible o severo, por lo que es necesario implementar controles en la Organización para mitigar, evitar o compartir el riesgo y llevar el mismo a niveles aceptables.
               td.text-center Evitar / Reducir / Transferir
               td.text-center 70
               td.text-center 125
             tr.fila-blanco
               td.text-center 2
               td.text-center Moderado
-              td El nivel de riesgo es Tolerable o moderado de acuerdo a los criterios de aceptación de la Organización. Los riesgos en esté nivel deben ser monitoreados para identificar oportunamente los cambios en su valoración.
+              td El nivel de riesgo es tolerable o moderado de acuerdo a los criterios de aceptación de la Organización. Los riesgos en esté nivel deben ser monitoreados para identificar oportunamente los cambios en su valoración.
               td.text-center Aceptar / Monitorear
               td.text-center 20
               td.text-center 69  
             tr.fila-amarillo1
               td.text-center 3
               td.text-center Leve
-              td El nivel de riesgo es Aceptable y se encuentra controlado en la Organización o el mismo es insignificante. Los riesgos en esté nivel se deben revisar periódicamente.
+              td El nivel de riesgo es aceptable y se encuentra controlado en la Organización o el mismo es insignificante. Los riesgos en esté nivel se deben revisar periódicamente.
               td.text-center Aceptar
               td.text-center 1
               td.text-center 19  
@@ -111,7 +111,7 @@
 
       .col-lg-7.px-md-5.py-md-3.p-4(data-aos="fade-left")
         .bg--piel.br_cstm.p-4
-          p El inventario de controles se debe realizar siguiendo la siguiente estructura:
+          p El inventario de controles se debe realizar a partir de la siguiente estructura:
           ul.lista-ul--color.lista-acento-botones.mb-0
             li.mb-0 
               i.fas.fa-square

@@ -18,7 +18,7 @@
                 img(src="@/assets/curso/temas/t9/t9_01.svg", alt="alt").img265.m-auto
             .col-lg
               p Es por esto, que, al momento de dar el paso para la transformación digital en la organización, se debe partir del análisis de todos los procesos y cómo estos se relacionan entre sí, identificando complejidades y oportunidades de mejora que podrían ser abordadas con el apoyo tecnológico o la automatización.
-              p.mb-0 A continuación, se presentan los aspectos clave para identificar las reglas de negocio.
+              p.mb-0 A continuación, se presentan los aspectos clave para identificar las reglas de negocio:
 
     .bg--paleYellow.br_01.p-5(data-aos="zoom-in")
       SlyderA(tipo="b")
@@ -154,8 +154,10 @@
                 li
                   i.fa-li.far.fa-dot-circle.clr--white
                   |  Ideación y recopilación de la información.
+                li
                   i.fa-li.far.fa-dot-circle.clr--white
                   |  Recepción de las solicitudes.
+                li
                   i.fa-li.far.fa-dot-circle.clr--white
                   |  Priorización y asignación de recursos.
                  

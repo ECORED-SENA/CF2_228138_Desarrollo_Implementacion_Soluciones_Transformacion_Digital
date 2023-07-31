@@ -21,7 +21,7 @@
             p.mb-0 Pueden tener vulnerabilidades aprovechables por amenazas, y están expuestos a riesgos de ciberseguridad.
           .bg--white.br_01.shadow.p-3(x="84%" y="58%" numero="+")
             .h4.mb-2 Amenazas
-            p.mb-0 Las amenazas siempre está presentes y en constante evolución.
+            p.mb-0 Las amenazas siempre están presentes y en constante evolución.
           .bg--white.br_01.shadow.p-3(x="28%" y="79%" numero="+")
             .h4.mb-2 Vulnerabiliades
             p.mb-0 Las amenazas aprovechan las vulnerabilidades presentes en los sistemas de información.  
@@ -222,7 +222,7 @@
                     td ...
                   tr.fila-amarillo2
                     td Aplicación
-                    td Software   
+                    td <em>Software</em>   
                     td A  
                     td 4  
                     td B  

@@ -269,7 +269,7 @@ export default {
       referencia:
         'Owasp. (2021). <em>OWASP ZAP 2.9.Getting Started Guide.</em>',
       tipo: 'PDF',
-      descarga: '/downloads/Guide-Tenable-for-Education.pdf',
+      link: 'https://www.zaproxy.org/pdf/ZAPGettingStartedGuide-2.9.pdf',
     },
     {
       tema: '4. Herramientas de análisis de seguridad digital',

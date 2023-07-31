@@ -23,16 +23,16 @@
               p.mb-0 Activos de información.
             li.mb-0.d-flex 
               i.fas.fa-square
-              p.mb-0 Riesgos; (Amenazas, principios afectados por amenazas, elementos vulnerables).
+              p.mb-0 Riesgos; (amenazas, principios afectados por amenazas, elementos vulnerables).
             li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0 Probabilidad de riesgos.
             li.mb-0.d-flex 
               i.fas.fa-square
-              p.mb-0 Dimensiones de Impactos organizacionales.
+              p.mb-0 Dimensiones de impactos organizacionales.
             li.mb-0.d-flex 
               i.fas.fa-square
-              p.mb-0 Cálculo del Riesgo inherente.
+              p.mb-0 Cálculo del riesgo inherente.
             li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0 Controles y aplicación de controles al catálogo de riesgos.
@@ -156,7 +156,7 @@
               ul.lista-ul--color.lista-acento-botones
                 li.mb-0.d-flex 
                   i.fas.fa-square
-                  p.mb-0 Activo de Información con riesgos críticos.
+                  p.mb-0 Activo de información con riesgos críticos.
                 li.mb-0.d-flex 
                   i.fas.fa-square
                   p.mb-0 Riesgos residuales asociados.
@@ -180,7 +180,7 @@
                   p.mb-0 Prioridad.  
                 li.mb-0.d-flex 
                   i.fas.fa-square
-                  p.mb-0 Fecha de Implementación de las actividades.
+                  p.mb-0 Fecha de implementación de las actividades.
                 li.mb-0
                   i.fas.fa-square
                   | Observaciones.                    
@@ -192,7 +192,7 @@
               figure
                 img(src='@/assets/curso/temas/t8/t8_05.svg', alt='imagen decorativa').img75.m-auto
             .col-lg
-              p.mb-0 Una vez se haya realizado el Plan de Tratamiento de Riesgos se debe comunicar a las partes interesadas, principalmente a los responsables de los activos de información y se debe dejar un registro de aceptación del plan de tratamiento de riesgos.
+              p.mb-0 Una vez se haya realizado el plan de tratamiento de riesgos se debe comunicar a las partes interesadas, principalmente a los responsables de los activos de información y se debe dejar un registro de aceptación del plan de tratamiento de riesgos.
           .row.justify-content-center.align-items-center
             .col-auto.mb-4.mb-lg-0
               figure

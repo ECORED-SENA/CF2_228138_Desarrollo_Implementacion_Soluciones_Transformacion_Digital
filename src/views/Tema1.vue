@@ -98,7 +98,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Las técnicas de recolección de información, en el proceso de análisis. valoración de riesgos y controles de ciberseguridad, tienen ciertas características o particularidades que, no solo las diferencias de las técnicas de recolección de otros procesos, sino que, además, favorecen la operación de quienes están a cargo de dicha tarea.
 
-    p(data-aos="fade-left").mb-5 Las técnicas de recolección de información pueden apropiar las características que se descubrirán en el recurso que se muestra a continuación. ¡Adelante!
+    p(data-aos="fade-left").mb-5 Las técnicas de recolección de información pueden apropiar las características que se descubrirán en el recurso que se muestra a continuación: ¡Adelante!
 
     .bg--paleYellow.br_01.p-5(data-aos="zoom-in")
       SlyderA(tipo="b")
@@ -121,7 +121,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6.mb-4.mb-lg-0
             h3 Registro de datos
-            p Consiste en el proceso de recopilar los datos o información obtenida, cuando se aplican las técnicas de recolección de información. Este es un elemento importante que puede ser aplicado tanto en papel y archivos físicos, como en medios digitales, tales como: documentos de procesadores de texto, registros multimedia (imagen, audio, video), aplicaciones de software y bases de datos digitales.
+            p Consiste en el proceso de recopilar los datos o información obtenida, cuando se aplican las técnicas de recolección de información. Este es un elemento importante que puede ser aplicado tanto en papel y archivos físicos, como en medios digitales, tales como: documentos de procesadores de texto, registros multimedia (imagen, audio, video), aplicaciones de #[em software] y bases de datos digitales.
           .col-lg-6
             figure
               img(src='@/assets/curso/temas/t1/t1_11.png', alt='')
