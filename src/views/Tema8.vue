@@ -58,7 +58,7 @@
       .col-md-10
         .titulo-sexto.color-acento-contenido
           p.mb-0
-            strong Tabla 12. 
+            strong Tabla 5.
             |  Referencia matriz de riesgos.
         .tabla-b.tabla-2.color-primario.border-diferentes.mb-2
           table  

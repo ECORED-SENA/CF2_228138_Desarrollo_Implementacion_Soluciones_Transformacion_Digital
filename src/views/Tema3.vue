@@ -73,7 +73,7 @@
               p.mb-0 Virtualización; Implementación de múltiples servidores virtuales en hiper visores tales como; #[em VMware, Proxmox, XenServer, Citrix, Hyper-v, ESX.]
             li.mb-0.d-flex 
               i.fas.fa-square
-              p.mb-0 Implementación de Servidores de aplicación web y servicios; #[em File]. #[em Transfer Protocol - FTP],
+              p.mb-0 Implementación de Servidores de aplicación web y servicios; #[em File] #[em Transfer Protocol - FTP].
             li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0  Sistema de Nombres de Dominio #[em DNS].

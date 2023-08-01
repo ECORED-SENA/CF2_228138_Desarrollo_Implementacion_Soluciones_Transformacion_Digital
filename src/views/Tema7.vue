@@ -500,7 +500,7 @@
           p Esta es la referencia para determinar la solidez del conjunto de controles:
           .titulo-sexto.color-acento-contenido
             p.mb-0
-              strong Tabla 10. 
+              strong Tabla 3. 
               | Referencia para determinarla solidez del conjunto de controles
           .tabla-b.tabla-2.color-primario.border-diferentes.mb-2
             table  
@@ -556,7 +556,7 @@
         .col-lg-12
           .titulo-sexto.color-acento-contenido
             p.mb-0
-              strong Tabla 11. 
+              strong Tabla 4. 
               | Referencia de aplicación de controles a riesgos
           .tabla-b.tabla-2.color-primario.border-diferentes.mb-2
             table  
