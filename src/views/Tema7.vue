@@ -53,7 +53,7 @@
     .row.justify-content-center(data-aos="zoom-in")
       .titulo-sexto.color-acento-botones
         p.mb-0
-          strong Tabla 8. 
+          strong Tabla 4. 
           |  Referencia de severidad del riesgo.
       .tabla-b.border-diferentes.tabla-2.color-primario.mb-2
         table  

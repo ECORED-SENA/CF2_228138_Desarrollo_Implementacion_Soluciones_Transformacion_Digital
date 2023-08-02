@@ -52,8 +52,8 @@
           p La virtualización conecta los servidores físicos de un proveedor de servicios en cualquier ubicación geográfica. Luego, divide y extrae los recursos, como el almacenamiento, para ponerlos a disposición de los usuarios, prácticamente en cualquier lugar donde haya conexión a Internet. Debido a que la infraestructura en la nube es a menudo pública, normalmente se conoce como una nube pública.” (IBM, 2021)
         .col-lg-5
           img(src="@/assets/curso/temas/t3/t3_05.png", alt="Infraestructura de la nube") 
-
-      .row(titulo="Infraestructura de la nube")
+        .col-lg-5
+          img(src="@/assets/curso/temas/t3/t3_06.png", alt="Principales características de las  infraestructuras") 
         .col-lg-7
           ul.lista-ul--color.lista-acento-botones.mb-0
             li.mb-0.d-flex 
@@ -80,8 +80,6 @@
             li.mb-0.d-flex 
               i.fas.fa-square
               p.mb-0 Sistemas #[em ERP, BI,] entre otros.            
-        .col-lg-5
-          img(src="@/assets/curso/temas/t3/t3_06.png", alt="Principales características de las  infraestructuras") 
 
       .row(titulo="Infraestructura y seguridad")
         .col-lg-7
